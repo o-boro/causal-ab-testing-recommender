@@ -42,12 +42,6 @@ The new policy successfully penalized low-stock items (`stock < 5`). This behavi
 2. **Implement SLA for ML Inference:** Engineering must strictly cap the ranking algorithm's latency at <200ms to prevent CTR decay.
 3. **Adopt CUPED company-wide:** Transitioning from standard T-tests to CUPED for revenue metrics will save weeks of experimental runtime.
 
-## Tech Stack
-* **Language:** Python
-* **Data Manipulation:** `pandas`, `numpy`
-* **Statistics:** `scipy.stats`, Bootstrapping
-* **Visualization:** `matplotlib`, `seaborn`
-
 ## Quick Start
 ```bash
 git clone [https://github.com/your-username/fashion-recommender-causal-ab.git](https://github.com/your-username/fashion-recommender-causal-ab.git)
