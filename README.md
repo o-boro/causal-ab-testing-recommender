@@ -37,12 +37,12 @@ System performance is a hidden business tax. The analysis proved a direct causal
 ### 4. Stock-Awareness & Logistics
 The new policy successfully penalized low-stock items (`stock < 5`). This behavioral shift protects the supply chain from post-purchase cancellations, improving long-term Customer LTV.
 
-## 🚀 Business Recommendations
+## Business Recommendations
 1. **Proceed with Rollout, but Adjust Forecasts:** The algorithm is genuinely incremental, but financial forecasts must be adjusted down by 30% to account for search cannibalization.
 2. **Implement SLA for ML Inference:** Engineering must strictly cap the ranking algorithm's latency at <200ms to prevent CTR decay.
 3. **Adopt CUPED company-wide:** Transitioning from standard T-tests to CUPED for revenue metrics will save weeks of experimental runtime.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Python
 * **Data Manipulation:** `pandas`, `numpy`
 * **Statistics:** `scipy.stats`, Bootstrapping
