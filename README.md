@@ -43,6 +43,6 @@ The new policy successfully penalized low-stock items (`stock < 5`). This behavi
 
 ## Quick Start
 ```bash
-git clone [https://github.com/your-username/fashion-recommender-causal-ab.git](https://github.com/your-username/fashion-recommender-causal-ab.git)
+git clone [https://github.com/your-username/fashion-recommender-causal-ab.git](https://github.com/o-boro/fashion-recommender-causal-ab.git)
 cd fashion-recommender-causal-ab
 pip install -r requirements.txt
